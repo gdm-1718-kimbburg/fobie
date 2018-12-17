@@ -45,27 +45,36 @@ body{
         font-size: 1.9rem;
         line-height: 3rem;
         color: $color2;
-        padding-top: 110px;
+        padding-top: 40px;
         padding-bottom: 30px;
-
+        
+        @media (min-width: $breekpunt) {
+            padding-top: 110px;
+        }
     }
 
     h1.kleingrijs {
         font-size: 1.9rem;
         line-height: 3rem;
         color: $color3;
-        padding-top: 110px;
+        padding-top: 40px;
         padding-bottom: 30px;
 
+        @media (min-width: $breekpunt) {
+            padding-top: 110px;
+        }
     }
 
     h1.kleinrood {
         font-size: 1.9rem;
         line-height: 3rem;
         color: $color1;
-        padding-top: 110px;
+        padding-top: 40px;
         padding-bottom: 30px;
 
+        @media (min-width: $breekpunt) {
+            padding-top: 110px;
+        }
     }
 
     h1.cijferwit {
@@ -315,14 +324,22 @@ footer {
     .btn_social {
         width:auto;
         height: 40px;
-        padding-left: 40px;
+        padding-right: 40px;
+        margin-top: 20px;
         margin-bottom:20px;
+
+        @media (min-width: $breekpunt) {
+            padding-left: 40px;
+            padding-right: 0px;
+            margin-top: 0px;
+        }
     }
 
     .logo-wit {
         width:auto;
         height: 50px;
         padding-right: 30px;
+        margin-bottom: 30px;
     }
 
     .copy {

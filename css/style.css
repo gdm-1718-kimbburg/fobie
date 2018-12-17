@@ -37,24 +37,42 @@ body h1.kleinblauw {
   font-size: 1.9rem;
   line-height: 3rem;
   color: #a7d7d8;
-  padding-top: 110px;
+  padding-top: 40px;
   padding-bottom: 30px;
+}
+
+@media (min-width: 560px) {
+  body h1.kleinblauw {
+    padding-top: 110px;
+  }
 }
 
 body h1.kleingrijs {
   font-size: 1.9rem;
   line-height: 3rem;
   color: #2f3032;
-  padding-top: 110px;
+  padding-top: 40px;
   padding-bottom: 30px;
+}
+
+@media (min-width: 560px) {
+  body h1.kleingrijs {
+    padding-top: 110px;
+  }
 }
 
 body h1.kleinrood {
   font-size: 1.9rem;
   line-height: 3rem;
   color: #c51538;
-  padding-top: 110px;
+  padding-top: 40px;
   padding-bottom: 30px;
+}
+
+@media (min-width: 560px) {
+  body h1.kleinrood {
+    padding-top: 110px;
+  }
 }
 
 body h1.cijferwit {
@@ -304,14 +322,24 @@ footer {
 footer .btn_social {
   width: auto;
   height: 40px;
-  padding-left: 40px;
+  padding-right: 40px;
+  margin-top: 20px;
   margin-bottom: 20px;
+}
+
+@media (min-width: 560px) {
+  footer .btn_social {
+    padding-left: 40px;
+    padding-right: 0px;
+    margin-top: 0px;
+  }
 }
 
 footer .logo-wit {
   width: auto;
   height: 50px;
   padding-right: 30px;
+  margin-bottom: 30px;
 }
 
 footer .copy {
