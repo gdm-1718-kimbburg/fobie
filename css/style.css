@@ -75,6 +75,20 @@ body h1.kleinrood {
   }
 }
 
+body h1.kleinwit {
+  font-size: 1.9rem;
+  line-height: 3rem;
+  color: white;
+  padding-top: 40px;
+  padding-bottom: 30px;
+}
+
+@media (min-width: 560px) {
+  body h1.kleinwit {
+    padding-top: 110px;
+  }
+}
+
 body h1.cijferwit {
   font-size: 12rem;
   color: white;

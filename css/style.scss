@@ -77,10 +77,21 @@ body{
         }
     }
 
+    h1.kleinwit {
+        font-size: 1.9rem;
+        line-height: 3rem;
+        color: white;
+        padding-top: 40px;
+        padding-bottom: 30px;
+
+        @media (min-width: $breekpunt) {
+            padding-top: 110px;
+        }
+    }
+
     h1.cijferwit {
         font-size: 12rem;
         color: white;
-
     }
 
     h1.cijferblauw {
@@ -314,6 +325,7 @@ table {
 .card-img-top {
     padding: 20px 0px 0px 40px;
 }
+
 
 /* footer */
 footer {
