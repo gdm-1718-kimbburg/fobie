@@ -1,0 +1,270 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:400,400i,600,700|Permanent+Marker");
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: "Open Sans", sans-serif;
+  color: #fff;
+}
+
+/* tekst opmaak */
+body {
+  background-color: white;
+  font-family: "Open Sans", sans-serif;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #2f3032;
+}
+
+body h1 {
+  font-family: "Permanent Marker", cursive;
+  font-size: 2.9rem;
+  text-transform: uppercase;
+}
+
+@media (min-width: 560px) {
+  body h1 {
+    font-size: 3.5rem;
+  }
+}
+
+body h1.kleinblauw {
+  font-size: 1.9rem;
+  line-height: 3rem;
+  color: #a7d7d8;
+  padding-top: 110px;
+  padding-bottom: 30px;
+}
+
+body h1.kleingrijs {
+  font-size: 1.9rem;
+  line-height: 3rem;
+  color: #2f3032;
+  padding-top: 110px;
+  padding-bottom: 30px;
+}
+
+body h1.kleinrood {
+  font-size: 1.9rem;
+  line-height: 3rem;
+  color: #c51538;
+  padding-top: 110px;
+  padding-bottom: 30px;
+}
+
+body h1.cijferwit {
+  font-size: 12rem;
+  color: white;
+}
+
+body h1.cijferblauw {
+  font-size: 12rem;
+  color: #a7d7d8;
+}
+
+body h2 {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 600;
+  font-size: 1rem;
+  padding-top: 20px;
+  line-height: 1.8em;
+  color: #2f3032;
+}
+
+body h3 {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 700;
+  font-size: 1rem;
+  padding-top: 30px;
+  line-height: 2em;
+}
+
+body h4 {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  font-style: italic;
+  font-size: 0.8rem;
+}
+
+body h5 {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  font-size: 0.6rem;
+}
+
+body h6 {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 700;
+  font-size: 7.6rem;
+  color: #E5163F;
+  padding-top: 30px;
+}
+
+@media (min-width: 560px) {
+  body h6 {
+    font-size: 21.7rem;
+  }
+}
+
+body h6.blauw {
+  color: #92CFD5;
+}
+
+body p {
+  color: white;
+}
+
+body p.donker, body li {
+  color: #2f3032;
+}
+
+body p.donkerbold {
+  font-weight: bold;
+  color: #2f3032;
+}
+
+body li {
+  margin-left: 20px;
+}
+
+/* navigatie */
+.header {
+  background-color: white;
+  padding: 20px;
+}
+
+.header .navbar-light .navbar-nav .nav-link {
+  color: #2f3032;
+  padding-left: 50px;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 700;
+  font-style: bold;
+}
+
+.header .navbar-light .navbar-nav .nav-link:hover {
+  color: #c51538;
+}
+
+/* stroken */
+.element {
+  position: absolute;
+  padding-top: 130px;
+  padding-bottom: 90px;
+}
+
+.element #element-1 {
+  z-index: 1;
+}
+
+.background {
+  background-color: #a7d7d8;
+  padding: 0;
+  margin-bottom: 40px;
+}
+
+.background2 {
+  background-color: #c51538;
+  padding: 0;
+  margin-bottom: 40px;
+  min-height: 610px;
+}
+
+.background3 {
+  background-color: #a7d7d8;
+  padding: 0;
+  margin-bottom: 40px;
+  min-height: 610px;
+}
+
+article {
+  background-color: #c51538;
+  padding: 40px 60px;
+  border-radius: 40px;
+  margin-top: 20px;
+}
+
+@media (min-width: 560px) {
+  article {
+    padding: 110px 110px;
+  }
+}
+
+article .article-body {
+  padding: 100px;
+  margin-bottom: 30px;
+}
+
+/* images */
+.img_left {
+  float: left;
+  width: 100%;
+  margin-top: 50px;
+  margin-bottom: 10px;
+}
+
+@media (min-width: 560px) {
+  .img_left {
+    padding-right: 50px;
+  }
+}
+
+.img_right {
+  float: right;
+  width: 100%;
+  margin-top: 50px;
+  margin-bottom: 60px;
+}
+
+@media (min-width: 560px) {
+  .img_right {
+    padding-left: 50px;
+  }
+}
+
+/* button */
+.btn {
+  border: none;
+  border-radius: 18px;
+  background-color: #c51538;
+  color: white;
+  width: 100%;
+  padding: 14px 28px;
+  font-size: 16px;
+  cursor: pointer;
+  display: inline-block;
+  margin-bottom: 60px;
+}
+
+/* footer */
+footer {
+  background-color: #2f3032;
+  padding-top: 40px;
+  padding-bottom: 20px;
+}
+
+footer .btn_social {
+  width: auto;
+  height: 40px;
+  padding-left: 40px;
+  margin-bottom: 20px;
+}
+
+footer .logo-wit {
+  width: auto;
+  height: 50px;
+  padding-right: 30px;
+}
+
+footer .copy {
+  padding-left: 150px;
+}
+
+footer a:hover {
+  text-decoration: none;
+  color: #c51538;
+}
+
+/*---*/
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,280 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,400i,600,700|Permanent+Marker');
+
+$color1: #c51538;
+$color2: #a7d7d8;
+$color3: #2f3032;
+$color4: #E5163F;
+$color5: #92CFD5;
+
+$fontset1: 'Permanent Marker', cursive;
+$fontset2: 'Open Sans', sans-serif;
+
+$breekpunt: 560px;
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: $fontset2;
+    color: #fff;
+}
+
+/* tekst opmaak */
+body{
+    background-color: white;
+    font-family: $fontset2;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: $color3;
+
+    h1 {
+        font-family: $fontset1;
+        font-size: 2.9rem;
+        text-transform: uppercase;
+
+        @media (min-width: $breekpunt) {
+            font-size: 3.5rem;
+        }
+    }
+
+    h1.kleinblauw {
+        font-size: 1.9rem;
+        line-height: 3rem;
+        color: $color2;
+        padding-top: 110px;
+        padding-bottom: 30px;
+
+    }
+
+    h1.kleingrijs {
+        font-size: 1.9rem;
+        line-height: 3rem;
+        color: $color3;
+        padding-top: 110px;
+        padding-bottom: 30px;
+
+    }
+
+    h1.kleinrood {
+        font-size: 1.9rem;
+        line-height: 3rem;
+        color: $color1;
+        padding-top: 110px;
+        padding-bottom: 30px;
+
+    }
+
+    h1.cijferwit {
+        font-size: 12rem;
+        color: white;
+
+    }
+
+    h1.cijferblauw {
+        font-size: 12rem;
+        color: $color2;
+
+    }
+
+    h2 {
+        font-family: $fontset2;
+        font-weight: 600;
+        font-size: 1rem;
+        padding-top: 20px;
+        line-height: 1.8em;
+        color: $color3;
+    }
+
+    h3 {
+        font-family: $fontset2;
+        font-weight: 700;
+        font-size: 1rem;
+        padding-top: 30px;
+        line-height: 2em;
+    }
+
+    h4 {
+        font-family: $fontset2;
+        font-weight: 400;
+        font-style: italic;
+        font-size: 0.8rem;
+    }
+
+    h5 {
+        font-family: $fontset2;
+        font-weight: 400;
+        font-size: 0.6rem;
+    }
+
+    h6 {
+        font-family: $fontset2;
+        font-weight: 700;
+        font-size: 7.6rem;
+        color: $color4;
+        padding-top: 30px;
+
+        @media (min-width: $breekpunt) {
+            font-size: 21.7rem;
+        }
+    }
+
+    h6.blauw {
+        color: $color5
+    }
+
+    p {
+        color: white;
+    }
+
+
+    p.donker, li {
+        color: $color3;
+    }
+
+    p.donkerbold {
+        font-weight: bold;
+        color: $color3;
+    }
+
+    li {
+        margin-left: 20px;
+    }
+
+}
+
+/* navigatie */
+.header { 
+    background-color: white;
+    padding: 20px; 
+
+    .navbar-light .navbar-nav .nav-link {
+        color: $color3;
+        padding-left: 50px;
+        font-family: $fontset2;
+        font-weight: 700;
+        font-style: bold;
+    }
+
+    .navbar-light .navbar-nav .nav-link:hover {
+        color: $color1;
+    }
+}
+
+
+/* stroken */
+.element { 
+    position:absolute; 
+    padding-top: 130px;
+    padding-bottom: 90px;
+
+    #element-1 { 
+        z-index:1; 
+    }
+
+}
+
+.background {
+    background-color: $color2;
+    padding: 0;
+    margin-bottom: 40px;
+}
+
+.background2 {
+    background-color: $color1;
+    padding: 0;
+    margin-bottom: 40px;
+    min-height: 610px;
+}
+
+.background3 {
+    background-color: $color2;
+    padding: 0;
+    margin-bottom: 40px;
+    min-height: 610px;
+}
+
+article {
+    background-color: $color1;
+    padding: 40px 60px;
+    border-radius: 40px;
+    margin-top: 20px;
+
+    @media (min-width: $breekpunt) {
+        padding: 110px 110px;
+    }
+
+    .article-body {
+        padding: 100px;
+        margin-bottom: 30px;
+    }
+}
+
+/* images */
+.img_left{
+    float: left;
+    width: 100%;
+    margin-top: 50px;
+    margin-bottom: 10px;
+
+    @media (min-width: $breekpunt) {
+        padding-right: 50px;
+    }
+}
+
+.img_right{
+    float: right;
+    width: 100%;
+    margin-top: 50px;
+    margin-bottom: 60px;
+
+    @media (min-width: $breekpunt) {
+        padding-left: 50px;
+    }
+}
+
+/* button */
+.btn {
+    border: none;
+    border-radius: 18px;
+    background-color: $color1;
+    color: white;
+    width: 100%;
+    padding: 14px 28px;
+    font-size: 16px;
+    cursor: pointer;
+    display: inline-block;
+    margin-bottom: 60px;
+  }
+
+/* footer */
+footer {
+    background-color: $color3;
+    padding-top: 40px;
+    padding-bottom:20px;
+
+    .btn_social {
+        width:auto;
+        height: 40px;
+        padding-left: 40px;
+        margin-bottom:20px;
+    }
+
+    .logo-wit {
+        width:auto;
+        height: 50px;
+        padding-right: 30px;
+    }
+
+    .copy {
+        padding-left: 150px;
+    }
+
+    a:hover {
+        text-decoration: none;
+        color: $color1;
+    }
+}
+
+
+/*---*/
