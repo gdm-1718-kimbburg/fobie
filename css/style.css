@@ -5,7 +5,6 @@
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   font-family: "Open Sans", sans-serif;
-  color: #fff;
 }
 
 /* tekst opmaak */
@@ -16,6 +15,10 @@ body {
   font-weight: 400;
   line-height: 1.5;
   color: #2f3032;
+}
+
+body h1, body h3, body h4, body h5 {
+  color: white;
 }
 
 body h1 {
@@ -62,6 +65,16 @@ body h1.cijferwit {
 body h1.cijferblauw {
   font-size: 12rem;
   color: #a7d7d8;
+}
+
+body h1.cijfergrey {
+  font-size: 6rem;
+  color: #2f3032;
+}
+
+body h1.cijferred {
+  font-size: 6rem;
+  color: #c51538;
 }
 
 body h2 {
@@ -223,6 +236,13 @@ article .article-body {
   }
 }
 
+.img_right_no {
+  float: right;
+  width: 100%;
+  margin-top: 50px;
+  margin-bottom: 60px;
+}
+
 /* button */
 .btn {
   border: none;
@@ -234,7 +254,44 @@ article .article-body {
   font-size: 16px;
   cursor: pointer;
   display: inline-block;
+  margin-bottom: 20px;
+}
+
+.btn_volgen {
+  width: auto;
+  height: 40px;
+  padding-right: 40px;
+  margin-bottom: 80px;
+}
+
+/* tabel */
+table {
+  color: #2f3032;
+  font-size: 1.5rem;
+  margin-top: 110px;
+}
+
+.tweederij {
+  font-size: 1rem;
+}
+
+/* card */
+.card {
+  background-color: #c51538;
   margin-bottom: 60px;
+  border-radius: 30px 30px 0px 30px;
+}
+
+.card-body {
+  padding: 60px 30px 0px 50px;
+}
+
+.wit {
+  background-color: white;
+}
+
+.card-img-top {
+  padding: 20px 0px 0px 40px;
 }
 
 /* footer */
