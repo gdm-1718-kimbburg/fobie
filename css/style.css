@@ -102,11 +102,15 @@ body h1.cijferblauw {
 body h1.cijfergrey {
   font-size: 6rem;
   color: #2f3032;
+  position: absolute;
+  z-index: 1;
 }
 
 body h1.cijferred {
   font-size: 6rem;
   color: #c51538;
+  position: absolute;
+  z-index: 1;
 }
 
 body h2 {
@@ -284,9 +288,15 @@ article .article-body {
   width: 100%;
   padding: 14px 28px;
   font-size: 16px;
-  cursor: pointer;
   display: inline-block;
   margin-bottom: 20px;
+  -webkit-transition: all 1s;
+  transition: all 1s;
+}
+
+.btn:hover {
+  background-color: #a7d7d8;
+  cursor: pointer;
 }
 
 .btn_volgen {
@@ -332,7 +342,9 @@ table {
 .card {
   background-color: #c51538;
   margin-bottom: 60px;
+  margin-top: 60px;
   border-radius: 30px 30px 0px 30px;
+  position: relative;
 }
 
 .card-body {
