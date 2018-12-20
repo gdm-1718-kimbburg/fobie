@@ -94,12 +94,15 @@ body{
     h1.cijferwit {
         font-size: 9rem;
         color: white;
+        position: absolute;
+        z-index:1;
     }
 
     h1.cijferblauw {
         font-size: 9rem;
         color: $color2;
-
+        position: absolute;
+        z-index:1;
     }
 
     h1.cijfergrey {
@@ -359,6 +362,13 @@ table {
     padding: 20px 0px 0px 40px;
 }
 
+.overlap {
+    position:relative;
+    z-index:2;
+    margin-top: 40px;
+    margin-bottom: 60px;
+    margin-left: 50px;
+}
 
 /* footer */
 footer {

@@ -92,11 +92,15 @@ body h1.kleinwit {
 body h1.cijferwit {
   font-size: 9rem;
   color: white;
+  position: absolute;
+  z-index: 1;
 }
 
 body h1.cijferblauw {
   font-size: 9rem;
   color: #a7d7d8;
+  position: absolute;
+  z-index: 1;
 }
 
 body h1.cijfergrey {
@@ -357,6 +361,14 @@ table {
 
 .card-img-top {
   padding: 20px 0px 0px 40px;
+}
+
+.overlap {
+  position: relative;
+  z-index: 2;
+  margin-top: 40px;
+  margin-bottom: 60px;
+  margin-left: 50px;
 }
 
 /* footer */
