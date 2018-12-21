@@ -370,6 +370,45 @@ table {
     margin-left: 50px;
 }
 
+/* kalender */
+.kalender {
+    width: 100%;
+    border: 2px solid $color2;
+    border-radius: 18px 18px 18px 18px;
+    display: flex;
+    background-color: $color2;
+    margin-top: 20px;
+    
+
+    .kalender-cijfer {
+        border-right:2px solid $color2;
+        font-size: 1.8rem;
+        width: 140px;
+        padding-top: 50px;
+        padding-bottom: 30px;
+        text-align: center;
+    }
+    
+    .kalender-tekst {
+        padding: 40px 20px 20px 20px;
+    }
+
+    
+}
+
+.marge-onder {
+    margin-bottom: 10px;
+
+    @media (min-width: $breekpunt) {
+        margin-bottom: 80px;
+    }
+}
+
+.marge-boven {
+    margin-top: 50px;
+}
+
+
 /* footer */
 footer {
     background-color: $color3;

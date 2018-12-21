@@ -371,6 +371,45 @@ table {
   margin-left: 50px;
 }
 
+/* kalender */
+.kalender {
+  width: 100%;
+  border: 2px solid #a7d7d8;
+  border-radius: 18px 18px 18px 18px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background-color: #a7d7d8;
+  margin-top: 20px;
+}
+
+.kalender .kalender-cijfer {
+  border-right: 2px solid #a7d7d8;
+  font-size: 1.8rem;
+  width: 140px;
+  padding-top: 50px;
+  padding-bottom: 30px;
+  text-align: center;
+}
+
+.kalender .kalender-tekst {
+  padding: 40px 20px 20px 20px;
+}
+
+.marge-onder {
+  margin-bottom: 10px;
+}
+
+@media (min-width: 560px) {
+  .marge-onder {
+    margin-bottom: 80px;
+  }
+}
+
+.marge-boven {
+  margin-top: 50px;
+}
+
 /* footer */
 footer {
   background-color: #2f3032;
